@@ -34,4 +34,4 @@ Source = "https://github.com/unknown/hatch-git-commit"
 [tool.hatch.version]
 source = "regex_commit"
 path = "hatch_git_commit/__about__.py"
-commit_message = "{new_version}"
+commit_extra_args = ["-m"]
